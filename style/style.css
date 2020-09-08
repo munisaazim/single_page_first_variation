@@ -61,12 +61,16 @@ label i.fa-bars{
 label.navbarImage{
     display: none;
 }
+input{
+    display: none;
+}
 @media(max-width:729px){
     label i.fa-bars{
         display: block;
         font-size:25px;
         padding-left: 30px;
-    }
+        padding-top:20px;
+        color:white;
     }
     ul{
         position: fixed;
@@ -81,6 +85,10 @@ label.navbarImage{
     }
     #check:checked~ul{
         left: 0;
-
+    }
+    .navbar label.navbarImage{
+        display:flex;
+        justify-content: flex-end;
+        line-height: 0px;
     }
 }
