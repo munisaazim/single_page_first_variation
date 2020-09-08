@@ -57,10 +57,10 @@ body{
 label i.fa-bars{
     display: none;
 }
-/*Navbar Respomsiveness*/
-label.navbarImage{
+.br {
     display: none;
 }
+/*Navbar Respomsiveness*/
 input{
     display: none;
 }
@@ -68,7 +68,7 @@ input{
     label i.fa-bars{
         display: block;
         font-size:25px;
-        margin-right: 40px;
+        margin-right: 60px;
         color:white;
         float: right;
         line-height: 80px;
@@ -87,9 +87,20 @@ input{
     #check:checked~ul{
         left: 0;
     }
-  label.navbarImage{
+  .navbar label.navbarImage{
     display: block;
     padding: 0px;
-    font-size: 25px;
+    font-size: 20px;
+    padding-left: 10px;
+    line-height: 20px;
+    padding-top:25px;
 }
+.br{
+    padding-top: -5px;
+}
+}
+@media(max-width:156px){
+    .navbar label.navbarImage{
+        font-size: 15px;
+    }
 }
