@@ -8,6 +8,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
 /*Navbar*/
 .navbarBackground{
     background: linear-gradient(rgba(0, 0, 0, 0.5), 
@@ -52,4 +53,32 @@ body{
     font-size: 16px;
     color: white;
 
+}
+label i.fa-bars{
+    display: none;
+}
+/*Navbar Respomsiveness*/
+label.navbarImage{
+    display: none;
+}
+@media(max-width:729px){
+    label i.fa-bars{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #7F7F7F			;
+        text-align: center;
+        transition: all .5s;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+    }
+    #check:checked~ul{
+        left: 0;
+
+    }
+}
 }
