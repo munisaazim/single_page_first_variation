@@ -68,9 +68,10 @@ input{
     label i.fa-bars{
         display: block;
         font-size:25px;
-        padding-left: 30px;
-        padding-top:20px;
+        margin-right: 40px;
         color:white;
+        float: right;
+        line-height: 80px;
     }
     ul{
         position: fixed;
@@ -86,9 +87,9 @@ input{
     #check:checked~ul{
         left: 0;
     }
-    .navbar label.navbarImage{
-        display:flex;
-        justify-content: flex-end;
-        line-height: 0px;
-    }
+  label.navbarImage{
+    display: block;
+    padding: 0px;
+    font-size: 25px;
+}
 }
