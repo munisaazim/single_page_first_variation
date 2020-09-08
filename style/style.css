@@ -64,12 +64,15 @@ label.navbarImage{
 @media(max-width:729px){
     label i.fa-bars{
         display: block;
+        font-size:25px;
+        padding-left: 30px;
+    }
     }
     ul{
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #7F7F7F			;
+        background: #7F7F7F;
         text-align: center;
         transition: all .5s;
         top: 80px;
@@ -80,5 +83,4 @@ label.navbarImage{
         left: 0;
 
     }
-}
 }
