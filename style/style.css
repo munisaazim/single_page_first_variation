@@ -9,7 +9,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-/*Navbar*/
+/* Menu Navbar*/
 .navbarBackground{
     background: linear-gradient(rgba(0, 0, 0, 0.5), 
     rgba(0, 0, 0, 0.5)),url('../image/logo2.jpg') no-repeat center center fixed;
@@ -67,7 +67,7 @@ label i.fa-bars{
 .br {
     display: none;
 }
-/*Navbar Respomsiveness*/
+/* Menu Navbar Respomsiveness*/
 input{
     display: none;
 }
