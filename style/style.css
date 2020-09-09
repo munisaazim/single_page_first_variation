@@ -24,7 +24,7 @@ body{
 
 }
 .navbar{
-    max-width: 1300px;
+    width: 100%;
 }
 .navbar ul{
     list-style: none;
@@ -73,6 +73,9 @@ input{
     display: none;
 }
 @media(max-width:729px){
+    .navbarContainer{
+        max-width: 525px;
+    }
     label i.fa-bars{
         display: block;
         font-size:25px;
