@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 *{
     padding:0;
     margin:0;
@@ -86,7 +87,7 @@ input{
         height: 700px;
         background: #7F7F7F;
         text-align: center;
-        transition: all .5s;
+        transition: all 0s;
         top: 80px;
         left: -100%;
         text-align: center;
@@ -126,5 +127,50 @@ input{
 @media(max-width:156px){
     .navbar label.navbarImage{
         font-size: 15px;
+    }
+}
+/*Motto Navbar*/
+.motoContainer{
+    max-width: 1300px;
+    margin:0 auto;
+    padding-top:80px;
+}
+.mottoHeader{
+    display: flex;
+    justify-content: center;
+   
+}
+.motoContainer br.break{
+    display: none;;
+}
+.mottoHeader h2{
+    font-family: 'Tangerine', cursive;
+    margin-top:80px;
+    color:white;
+    font-size:90px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    line-height: 100px;
+}
+@media(max-width:729px){
+    .mottoHeader h2{
+        font-size:70px;
+    }
+}
+@media(max-width:452px){
+ 
+    .mottoHeader h2{
+        font-size:50px;
+        
+    }
+}
+@media(max-width:304px){
+    .motoContainer br.break{
+        display: block;
+    }
+    .mottoHeader h2{
+        font-size:50px;
+        line-height: 80px;;
+       
     }
 }
