@@ -24,7 +24,7 @@ body{
 
 }
 .navbar{
-    width: 100%;
+    max-width: 1300px;
 }
 .navbar ul{
     list-style: none;
@@ -175,3 +175,5 @@ input{
     }
 }
 /*About*/
+.aboutContainer{
+      display: none;}
