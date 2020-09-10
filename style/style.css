@@ -492,16 +492,35 @@ input{
 .menuOne{
     height: 327px;
     display: flex;
-   
+    width: 100%;
 }
 
 .menuOneText{
-    width: 30%;
+    width: 33%;
+    height: 237px;
+}
+.menuOneText h3{
+    line-height: 1.3em;
+    font-weight: 500;
+    color: #c39d63;
+    font-size:22px;
+    text-align: center;
+}
+.menuOneText h2{
+    font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+    font-size: 24px;
+    color: #1f1f1f!important;
+    line-height: 1.3em;
+    text-align: center;
+}
+.menuOne p{
+    color:#959595;
+    font-size:15px;
+    padding-top: 30px;;
 }
 .menuOnePhoto img{
-    width: 30%;
-    background-size: cover;
     transition:0.5s all;
+    height: 237px;
 }
 .menuTwo{
     display: flex;
