@@ -211,13 +211,12 @@ input{
 }
 .headerText h2{
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Playfair Display', serif;
     margin-left: 40px;
 }
 .headerText{
     margin-bottom: 30px;
-  
 }
 .bodyText p{
   font-size: 15px;
@@ -239,7 +238,7 @@ input{
         height: 800px;
     } 
     .bodyText p{
-        font-size: 15px;
+        font-size: 13px;
         line-height: 20px;
     }
 }
@@ -252,8 +251,7 @@ input{
         height: 700px;
     } 
     .bodyText p{
-        font-size: 11px;
-        line-height: 15px;
+        line-height: 20px;
     
      } 
      .headerText h2, .bodyText p ,.titleText h4{
@@ -275,8 +273,6 @@ input{
     text-align: center;
     margin: 0 auto;
     margin-left: 40px;
-    font-size: 11px;
-
  } 
 .image{
     
@@ -341,4 +337,35 @@ input{
 .menuIntro{
     margin-top:100px;
     background:  rgba(0,0,0,0.03);
+}
+.menuIntroContainer{
+    max-width: 1300px;
+    margin:0 auto;
+    display: flex;
+    flex-flow: column;
+    padding-top: 100px;
+}
+.introTitle h4, .introHeader h2, .introText p{  
+    text-align: center;
+}
+.introTitle{
+    margin-bottom: 30px;
+}
+.introTitle h4 span{
+    color: #BFBFBF;
+    font-size: 15px;
+    border-bottom:2px solid rgb(195, 157, 99); 
+}
+.introHeader{
+    margin-bottom: 30px;
+}
+.introHeader h2{
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+}
+.introText p{
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 40px;
 }
