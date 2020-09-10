@@ -437,6 +437,9 @@ input{
 .introView{
     padding-bottom: 100px;
 }
+.introView a br.hideIntroView {
+    display: none;
+}
 /*Responsiveness of IntroMenu*/
 
 
@@ -455,6 +458,16 @@ input{
     .introHeader h2{
         font-size: 29px;
     }
+}
+@media(max-width:202px){
+    .introView a{
+    padding:10px 5px;
+}
+}
+@media(max-width:182px){
+    .introView a br.hideIntroView {
+        display: block;
+}
 }
 @media(max-width:179px){
     .introHeader h2{
