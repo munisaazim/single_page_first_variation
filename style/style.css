@@ -487,24 +487,30 @@ input{
 .menuBody{
     padding-left:30px;
     padding-right: 30px;;
-    background-color: #fff;
 }
 .menuOne{
-    height: 327px;
+    height: 315px;
     display: flex;
     width: 100%;
 }
 
 .menuOneText{
     width: 33%;
-    height: 237px;
+    height: 315px;
+    background-color: #ffffff;
+    padding-top: 48px;
+    padding-right: 24px;
+    padding-bottom: 48px;
+    padding-left: 24px;
+   
 }
 .menuOneText h3{
     line-height: 1.3em;
-    font-weight: 500;
+    font-weight: 400;
     color: #c39d63;
     font-size:22px;
     text-align: center;
+    padding-top: 5px;
 }
 .menuOneText h2{
     font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
@@ -512,15 +518,25 @@ input{
     color: #1f1f1f!important;
     line-height: 1.3em;
     text-align: center;
+    font-weight: 400;
+    padding-top: 10px;
+  
 }
 .menuOne p{
     color:#959595;
     font-size:15px;
-    padding-top: 30px;;
-}
-.menuOnePhoto img{
+    line-height: 1.8em;
+    text-align: center;
+    padding-top: 10px;}
+/* padding-top: 48px;
+padding-right: 24px;
+padding-bottom: 48px;
+padding-left: 24px; */
+
+.menuOnePhoto img {
     transition:0.5s all;
-    height: 237px;
+    width:410px;
+    height:315px; 
 }
 .menuTwo{
     display: flex;
@@ -530,4 +546,9 @@ input{
 }
 .menuFour{
     display: flex;
+}
+@media(max-width:967px){
+    .menuOne, .menuTwo, .menuThree, .menuFour{
+        flex-flow: column;
+    }
 }
