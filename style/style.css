@@ -24,7 +24,6 @@ body{
 .navbarContainer{
     max-width: 1300px;
     margin:0 auto;
-
 }
 .navbar{
     width: 100%;
@@ -474,3 +473,35 @@ input{
         font-size: 22px;
     }
 } 
+
+/*Menu Container*/
+.menuPhoto{
+    background-color: #1f1f1f;
+    padding-left:50px;
+    padding-right: 50px;;
+}
+.menuContainer{
+    max-width: 1280px;
+    margin:0 auto;
+}
+.menuBody{
+    padding-left:30px;
+    padding-right: 30px;;
+    background-color: #fff;
+}
+.menuOne{
+    height: 327px;
+    display: flex;
+   
+}
+.menuTwo{
+    display: flex;
+}
+.menuOneText{
+    width: 30%;
+}
+.menuOnePhoto img{
+    width: 30%;
+    background-size: cover;
+    transition:0.5s all;
+}
