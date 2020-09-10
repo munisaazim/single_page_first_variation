@@ -494,9 +494,7 @@ input{
     display: flex;
    
 }
-.menuTwo{
-    display: flex;
-}
+
 .menuOneText{
     width: 30%;
 }
@@ -504,4 +502,10 @@ input{
     width: 30%;
     background-size: cover;
     transition:0.5s all;
+}
+.menuTwo{
+    display: flex;
+}
+.menuThree{
+    display: flex;
 }
