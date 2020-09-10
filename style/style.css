@@ -244,6 +244,9 @@ input{
     }
 }
 @media(max-width:770px){
+    .text{
+        margin-right: 30px;
+    }
     .image img{
         width: 400px;
         height: 700px;
@@ -253,13 +256,16 @@ input{
         line-height: 15px;
     
      } 
+     .headerText h2, .bodyText p ,.titleText h4{
+         margin-left: 30px;;
+     }
 }
 @media(max-width:729px){
 .about{
     flex-flow: column-reverse;
     }
-    .titleText h4 span, .headerText h2{
-        margin-left: 40px;
+    .titleText h4 span{
+        margin-left: 20px;;
     }
  .titleText, .headerText{
     display: flex;
@@ -307,3 +313,27 @@ input{
         font-size: 25px;
     }
 } 
+@media(max-width:227px){
+    .image img{
+        width: 150px;
+        height: 200px;
+    }  
+} 
+@media(max-width:227px){
+    .image img{
+        width: 150px;
+        height: 200px;
+    }  
+} 
+@media(max-width:171px){
+    .image img{
+        width: 100px;
+        height: 150px;
+    }  
+}
+@media(max-width:168px){
+    .titleText h4, .headerText h2, .bodyText p, .titleText h4 span {
+        margin-left: 10px;
+
+}
+}
