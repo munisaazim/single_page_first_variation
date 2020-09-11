@@ -393,9 +393,7 @@ input{
     margin:0 auto;
     display: flex;
     flex-flow: column;
-    padding-top: 100px;
-  
-    
+    padding-top: 100px;   
 }
 .menuOne{
     background-color: #ffffff;
@@ -492,15 +490,15 @@ input{
     padding-right: 30px;;
 }
 .menuOne{
-    height: 315px;
+    height: 327px;
     display: flex;
     width: 100%;
 }
 
 .menuOneText{
-    width: 33%;
-    height: 315px;
-     background-color:red; 
+    width: 33.3333333333%;
+    height: 327px;
+     background-color:#ffffff; 
     padding-top: 48px;
     padding-right: 24px;
     padding-bottom: 48px;
@@ -542,7 +540,7 @@ padding-left: 24px; */
     height:315px; 
 } */
 .menuPhotoContainer{
-    width: 33.3333%;
+    width: 33.3333333333%;
     height: 327px;
 }
 .menuOnePhoto{
@@ -599,9 +597,9 @@ padding-left: 24px; */
  }
  .menuOneText{
      width: 100%;
-     margin-top: 30px;;
  }
  .menuPhotoContainer{
     width: 100%;
+    height: auto;
  }
   }
