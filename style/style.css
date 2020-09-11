@@ -617,6 +617,42 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
     background-position: 50%;
     background-repeat: no-repeat;
 }
+/*Row four in menu*/
+.menuFour{
+    height: 327px;
+    display: flex;
+    width: 100%;
+}
+.menuFivePhotoContainer{
+    width: 33.3333333333%;
+    height: 327px; ;
+}
+.menuFivePhoto{
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/food-05.jpg);
+    height: 327px;
+    padding-top: 48px;
+    padding-right: 24px;
+    padding-bottom: 48px;
+    padding-left: 24px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.menuSixPhotoContainer{
+    width: 33.3333333333%;
+    height: 327px; ;
+}
+.menuSixPhoto{
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/food-03.jpg);
+    height: 327px;
+    padding-top: 48px;
+    padding-right: 24px;
+    padding-bottom: 48px;
+    padding-left: 24px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
 /*Responsiveness of row one in menu*/
 @media(max-width:967px){
     .menuOne, .menuTwo,.menuThree {
