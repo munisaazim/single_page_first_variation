@@ -523,7 +523,7 @@ input{
     padding-top: 10px;
   
 }
-.menuOne p{
+.menuOneText p{
     color:#959595;
     font-size:15px;
     line-height: 1.8em;
@@ -559,7 +559,7 @@ padding-left: 24px; */
         background-repeat: no-repeat;
        
 }
-/*Second row of menu*/
+/*Row one  in menu*/
 .menuTwo{
     height: 327px;
     display: flex;
@@ -586,6 +586,27 @@ padding-left: 24px; */
 }
 .menuThreePhoto{
 background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/food-08.jpg);
+    height: 327px;
+    padding-top: 48px;
+    padding-right: 24px;
+    padding-bottom: 48px;
+    padding-left: 24px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+/*Row three in menu*/
+.menuThree{
+    height: 327px;
+    display: flex;
+    width: 100%;
+}
+.menuFourPhotoContainer{
+    width: 33.3333333333%;
+    height: 327px; ;
+}
+.menuFourPhoto{
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/food-06.jpg);
     height: 327px;
     padding-top: 48px;
     padding-right: 24px;
