@@ -394,9 +394,12 @@ input{
     display: flex;
     flex-flow: column;
     padding-top: 100px;
+  
     
 }
-
+.menuOne{
+    background-color: #ffffff;
+}
 .introTitle h4, .introHeader h2, .introText p, .introView{  
     text-align: center;
 }
@@ -497,7 +500,7 @@ input{
 .menuOneText{
     width: 33%;
     height: 315px;
-    background-color: #ffffff;
+     background-color:red; 
     padding-top: 48px;
     padding-right: 24px;
     padding-bottom: 48px;
@@ -533,11 +536,33 @@ padding-right: 24px;
 padding-bottom: 48px;
 padding-left: 24px; */
 
-.menuOnePhoto img {
+/* .menuOnePhoto img {
     transition:0.5s all;
     width:410px;
     height:315px; 
+} */
+.menuPhotoContainer{
+    width: 33.3333%;
+    height: 327px;
 }
+.menuOnePhoto{
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/food-07.jpg);
+    /*     background-size: cover; */
+     
+    /*     padding-bottom: calc(100% * 3 / 4);
+        background-position: center center; */
+        height: 327px;
+        padding-top: 48px;
+        padding-right: 24px;
+        padding-bottom: 48px;
+        padding-left: 24px;
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+       
+}
+
+
 .menuTwo{
     display: flex;
 }
@@ -551,4 +576,32 @@ padding-left: 24px; */
     .menuOne, .menuTwo, .menuThree, .menuFour{
         flex-flow: column;
     }
+  .menuOne{
+      height: auto;
+  }
+  .menuOnePhoto{
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/food-07.jpg);
+/*     background-size: cover; */
+    width: 100%;
+/*     padding-bottom: calc(100% * 3 / 4);
+    background-position: center center; */
+    height: 200px;
+    padding-top: 48px;
+    padding-right: 24px;
+    padding-bottom: 48px;
+    padding-left: 24px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
 }
+.menuBody{
+    width: 100%;
+ }
+ .menuOneText{
+     width: 100%;
+     margin-top: 30px;;
+ }
+ .menuPhotoContainer{
+    width: 100%;
+ }
+  }
