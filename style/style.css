@@ -760,10 +760,14 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
         font-size: 29px;
     }
 }
+.slider{
+    max-width: 1300px;
+    margin:0 auto;
+    padding-top: 100px;  
+    padding-bottom: 100px;  
+}
 #slider {
-    margin: 0 auto;
-    width: 800px;
-    max-width: 100%;
+    width: 100%;
     text-align: center;
  }
  #slider input[type=radio] {
