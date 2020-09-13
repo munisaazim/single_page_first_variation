@@ -741,6 +741,14 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
         width: 100%;
     }
 }
+/*Testtimonials*/
+.review{
+    margin-top: 100px;
+}
+.reviewContainer{
+        max-width: 1300px;
+        margin:0 auto;
+}
 /*Responsiveness of  review of stars*/
 /* @media(max-width:320px){
    .reviewHeader .introHeader h2{
