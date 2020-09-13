@@ -744,9 +744,10 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
 /*Testtimonials*/
 .review{
     margin-top: 100px;
+   
 }
 .reviewContainer{
-        max-width: 1300px;
+        max-width: 1280px;
         margin:0 auto;
 }
 /*Responsiveness of  review of stars*/
@@ -767,9 +768,9 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
 .carouselContainer{
     max-width: 1900px;
     margin:0 auto;
-    padding-top: 100px;  
-    padding-bottom: 100px; 
+    padding-top: 100px; 
 }
+
 #testimonials{
     text-align: center;
     background-color: #ef8172;
@@ -784,9 +785,13 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
 }
 #carousel p{
     padding-top: 20px;  
-}
-#carousel em, #carousel p{
+    color: grey;
+    font-size:20px;
     text-align: center;
+}
+#carousel em{
+    text-align: center;
+    font-size: 18px;
 }
 .testimonial-image{
 width: 45%;
@@ -807,3 +812,115 @@ border-radius: 100%;
     display: flex;
     justify-content: center;
 }
+/*News Header*/
+.introHeader p{
+    text-align: center;
+    color: gray;
+}
+/*News*/
+.news{
+ padding-top: 100px;
+ max-width: 1280px;
+ margin:0 auto;
+}
+.newsContainer{
+   
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+}
+
+/*Flexbox style*/
+.OneContainer{
+    width: 400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color:rgb(235, 234, 232);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.OneContainer .image img{
+    height: 250px;
+    width: 400px;
+}
+
+.OneContainer .image, .OneContainer .header h3{
+    display: flex;
+    justify-content: center;
+}
+.OneContainer .header p.text{
+    text-align: center;
+}
+.OneContainer .header p.price{
+    margin: 10px 10px;
+}
+.OneContainer .header p.currentPrice{
+    margin: 10px 10px 20px 10px;
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+}
+/* .OneContainer .lastElement p.like{
+    margin-left: 15px;
+    font-size: 15px;
+}
+.fa-heart{
+    margin-right: 10px;
+    color: rgb(239, 87, 108);
+    font-size: 18px;
+}
+.OneContainer .lastElement p.shop{
+     position: relative;
+    top: -35px;
+    right: -235px; 
+    position: absolute;
+    top: -100px;
+    text-transform: uppercase;
+    color:rgb(255, 66, 150);
+    font-size: 15px;
+    font-weight: bold;
+}
+.lastElement    {
+    margin-bottom: -30px;
+}  */
+.lastElement ul{
+    list-style: none;
+    display: inline;
+} 
+.lastElement ul li {
+    display: inline-block;
+}
+.lastElement ul li.like .fa-heart{
+    color: rgb(239, 87, 108);
+    font-size: 19px;
+    margin-left: 1px;
+    margin-right:3px;
+    cursor: pointer;
+}
+.lastElement ul li.like .fa-heart:hover{
+    color: #FF3030;
+}
+.lastElement ul li.like span.likeNumber{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15.5px;
+    color: grey;
+}
+.lastElement ul li.shop{
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color:rgb(255, 66, 150);
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: git ;
+}
+.lastElement{
+    margin-bottom: 12px;
+    margin-top:10px;
+}
+
+
+   
