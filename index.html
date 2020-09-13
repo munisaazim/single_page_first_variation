@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +7,7 @@
     <link rel="stylesheet" href="style/style.css">
     <title>Single Page Restaurant</title>
 </head>
-
 <body>
-    <div class="container">
         <!--Navbar-->
         <div class="navbarBackground">
             <div class="navbarContainer">
@@ -40,7 +37,6 @@
                 </div>
             </div>
         </div>
-
         <!--About-->
         <div class="AboutBackground">
             <div class="aboutContainer">
@@ -52,7 +48,6 @@
                         <div class="headerText">
                             <h2>Our story</h2>
                         </div>
-
                         <div class="bodyText">
                             <p> Welcome to the restaurant, your number one source for all quality food. We
                                 are dedicated to giving you the very best of meals, with a focus on custome
@@ -86,7 +81,6 @@
                                     <br>
                                 </span>
                                 <span class="hideTwo">Sincerely, <br></span>
-
                                 <span class="hi">Munisa</span>
                             </p>
                         </div>
@@ -146,7 +140,6 @@
                                     laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
                                     architecto beatae vitae dicta sunt.</p>
                         </div>
-
                         <!--    <div class="menuTwo">   
                     <div class="menuOneText">
                         <h>$26.31</h3>
@@ -256,92 +249,64 @@
         <!--Review of stars-->
         <div class="review">
             <div class="reviewContainer">
-                <div class="text">
+                <div class="reviewHeader">
                     <div class="introTitle">
                         <h4> <span>Testimonials</span></h4>
                     </div>
                     <div class="introHeader">
+                        <h2>Delicious Food, Fresh Ingredients</h2>
                         <h2>What People are Saying</h2>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="reviewBlogs">
-            <div class="container">
-                <!--slider------------------->
-                <ul id="autoWidth" class="cs-hidden">
-                <!--1------------------------------>
-          <li class="item-a">
-              <!--slider-box-->
-                <div class="box">
-                <p class="marvel">MARVEL</p>
-                <!--model-->
-                <img src="img/Ant-Man.png" class="model">
-                <!--details-->
-                <div class="details">
-                <!--logo-character-->
-                <!--character-details-->
-                <p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
-                </div>
-                
-                </div>
-                </li>
-                <!--2------------------------------>
-          <li class="item-a">
-              <!--slider-box-->
-                <div class="box">
-                <p class="marvel">MARVEL</p>
-                <!--model-->
-                <img src="img/DeadPool.png" class="model">
-                <!--details-->
-                <div class="details">
-                <!--logo-character-->
-                <!--character-details-->
-                <p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
-                </div>
-                
-                </div>
-                </li>
-                <!--3------------------------------>
-          <li class="item-a">
-              <!--slider-box-->
-                <div class="box">
-                <p class="marvel">MARVEL</p>
-                <!--model-->
-                <img src="img/SpiderMan.png" class="model">
-                <!--details-->
-                <div class="details">
-                <!--logo-character-->
-                <!--character-details-->
-                <p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
-                </div>
-                
-                </div>
-                </li>
-                <!--4------------------------------>
-          <li class="item-a">
-              <!--slider-box-->
-                <div class="box">
-                <p class="marvel">MARVEL</p>
-                <!--model-->
-                <img src="img/Venom.png" class="model">
-                <!--details-->
-                <div class="details">
-                <!--logo-character-->
-                <!--character-details-->
-                <p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
-                </div>
-                
-                </div>
-                </li>
-                </ul>
-                    
-                    
-            
-            
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="slide slide_1">
+                        <div class="slide-content">
+                           <h2>Slide 1</h2>
+                           <p>Content for Slide 1</p>
+                        </div>
+                     </div>
+                     <div class="slide slide_2">
+                        <div class="slide-content">
+                           <h2>Slide 2</h2>
+                           <p>Content for Slide 2</p>
+                        </div>
+                     </div>
+                     <div class="slide slide_3">
+                        <div class="slide-content">
+                           <h2>Slide 3</h2>
+                           <p>Content for Slide 3</p>
+                        </div>
+                     </div>
+                     <div class="slide slide_4">
+                        <div class="slide-content">
+                           <h2>Slide 4</h2>
+                           <p>Content for Slide 4</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+            <div id="bullets">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+         </div>
 </body>
-
 </html>
