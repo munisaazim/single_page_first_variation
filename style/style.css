@@ -820,7 +820,7 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
 /*News*/
 .news{
     padding-top: 100px;
-    max-width: 1280px;
+    max-width: 1400px;
     margin:0 auto;
 }
 .newsContainer{
@@ -830,26 +830,6 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
     align-items: center;
     flex-wrap: wrap;
 }
-/* h2.newsHeader {
-    text-align: center;
-}
-h2.newsHeader a{
-    font-family: 'Playfair Display', serif;
-    font-size: 25px;
-    color: black;
-    text-decoration: none;
-} */
-/*.introTitle h4, .introHeader h2, .introText p, .introView{  
-    text-align: center;
-}
-.introTitle{
-    margin-bottom: 30px;
-}
-.introTitle h4 span{
-    color: #BFBFBF;
-    font-size: 15px;
-    border-bottom:2px solid rgb(195, 157, 99); 
-}*/
 .newsBody{
     padding-left: 15px;
 }
