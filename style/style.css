@@ -446,6 +446,9 @@ input{
     margin-left: 40px;
     margin-right: 40px;
     }
+    .menuOneText{
+        height: auto;
+    }
 }
 @media(max-width:320px){
     .introHeader h2{
@@ -676,6 +679,7 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
  }
  .menuOneText{
      width: 100%;
+     height: auto;
  }
  .menuPhotoContainer{
     width: 100%;
@@ -737,3 +741,14 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
         width: 100%;
     }
 }
+/*Responsiveness of  review of stars*/
+/* @media(max-width:320px){
+   .reviewHeader .introHeader h2{
+        font-size: 38px;
+    }
+}
+@media(max-width:276px){
+    .reviewHeader .introHeader h2{
+        font-size: 29px;
+    }
+} */
