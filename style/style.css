@@ -750,7 +750,7 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
         margin:0 auto;
 }
 /*Responsiveness of  review of stars*/
-/* @media(max-width:320px){
+@media(max-width:320px){
    .reviewHeader .introHeader h2{
         font-size: 38px;
     }
@@ -759,4 +759,4 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
     .reviewHeader .introHeader h2{
         font-size: 29px;
     }
-} */
+}
