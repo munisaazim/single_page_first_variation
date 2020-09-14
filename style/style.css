@@ -984,7 +984,13 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
   }
   /*Responsiveness Reservation & Contact Form*/
   @media(max-width:967px){
-      .reservationContainer{
+    .reservationContainer{
           flex-flow: column;
       }
+      .reservationHour, .contactForm{
+        width:90%;
+    }
+    .contactForm{
+        margin-left: 5.5%;
+    }
   }
