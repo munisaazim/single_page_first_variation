@@ -393,8 +393,7 @@ input{
     margin:0 auto;
     display: flex;
     flex-flow: column;
-    padding-top: 100px;  
-    padding-bottom: 100px;  
+    padding-top: 100px; 
 }
 .menuOne{
     background-color: #ffffff;
@@ -427,12 +426,18 @@ input{
     margin-bottom: 30px;
 
 }
+.introView{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
 .introView a{
     text-decoration:none;
     border:2px solid rgb(195, 157, 99);
     background:rgb(195, 157, 99);
     padding:10px 20px;
     color: white;
+
     
 }
 .introView a br.hideIntroView {
@@ -863,6 +868,7 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
     margin-top:40px;
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;;
 }
 .linkMore a{
     text-decoration:none;
