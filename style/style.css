@@ -906,6 +906,9 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
     margin-top: 150px;
     margin-bottom: 180px;
 }
+.reservationHour{
+  margin-left: 5.5%;
+}
 .reservationHour h3, .reservationHour p, .reservationHour strong{
     color: white;
 }
