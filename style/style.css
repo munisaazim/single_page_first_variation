@@ -877,7 +877,18 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
     padding:10px 20px;
     color: white;
 }
-
+/*Reservation & Contact Form*/
+.reservation{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)),url(https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    transition:0.5s all;
+}
+.reservationContainer{
+    max-width: 1280px;
+    margin: 0 auto;
+}
 .contactBody input{
 display: block;
 }
