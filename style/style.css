@@ -877,3 +877,7 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
     padding:10px 20px;
     color: white;
 }
+
+.contactBody input{
+display: block;
+}
