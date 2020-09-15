@@ -1021,3 +1021,25 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
   .headerFooter p:last-child{
       border-bottom: none;
   }
+  .headerFooter p{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid #ffffff;
+    margin-top: 15px;
+}
+.footerBody h3 {
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 15px;
+}
+.footerBody p{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid #ffffff;
+    margin-top: 15px;
+}
+.footerChat p{
+    border-bottom: none;
+}
