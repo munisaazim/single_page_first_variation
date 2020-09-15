@@ -980,8 +980,8 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
     color: white;
   }
   .reservationContainer{
-      margin-bottom: 50px;;
-  }
+      padding-bottom: 80px;;
+  } 
   /*Responsiveness Reservation & Contact Form*/
   @media(max-width:967px){
     .reservationContainer{
@@ -993,4 +993,31 @@ background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2
     .contactForm{
         margin-left: 5.5%;
     }
+  }
+  /*Footer*/
+  .footer{
+      background: #1f1f1f;
+  }
+  .footerContainer{
+      max-width: 1280px;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      padding-top: 100px;;
+  }
+  .footerContainer p, .footerContainer h3{
+      color: #ffffff;
+  }
+  .headerFooter, .footerBody{
+      margin: 0% 5.5%;
+  }
+  .headerFooter p{
+      font-size: 20px;
+      line-height: 30px;
+      font-family: 'Playfair Display', serif;
+      border-bottom: 1px solid #ffffff;
+      margin-top: 15px;;
+  }
+  .headerFooter p:last-child{
+      border-bottom: none;
   }
